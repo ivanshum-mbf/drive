@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "mainpages",
+  "info": {
+    "name": "mainpage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Title"
+    },
+    "descr": {
+      "type": "richtext"
+    }
+  }
+}
